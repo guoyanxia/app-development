@@ -1,0 +1,59 @@
+#top{
+    height: 50px;
+    width: 900px;
+    /* border:1px solid red; */
+}
+#span1{
+    height: 30px;
+    width: 50px;
+    /* border:1px solid black; */
+    margin-left: 20px;
+    margin-top:28px;
+    float:left;
+}
+#span2{
+    height: 30px;
+    width: 100px;
+    float:left;
+    margin-top:26px;
+    margin-left: 20px;
+    /* border:1px solid black; */
+}
+#span3{
+    height: 30px;
+    width: 100px;
+    float:left;
+    margin-left: 20px;
+    margin-top:28px;
+    /* border:1px solid black; */
+}
+#img1{
+    height: 30px;
+    width: 30px;
+    float: left;
+}
+#img2{
+    height: 30px;
+    width: 30px;
+    float: left;
+}
+#zan{
+    height: 30px;
+    width: 70px;
+    float: left;
+}
+#ping{
+    height: 30px;
+    width: 70px;
+    float: left;
+}
+#hr{
+    margin-top:10px;
+}
+a{
+    color:grey;
+}
+a:hover{
+    color:brown;
+}
+

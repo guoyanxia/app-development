@@ -1,0 +1,23 @@
+<div class="container">
+    <ul>
+        <li *ngFor="let task of finshed;">
+          <div class="top">
+            <a href="#"><h3>{{task.name}}</h3></a>
+            <span class="span1span">{{task.jiezhi}}</span>
+            <span class="span2span">优秀</span>
+            <span class="span5">{{task.grade}}</span>
+            <span class="span4">分</span>
+            <span>/</span>
+            <span class="span3">{{task.score}}</span>
+            <span class="span4">分</span>
+          </div>
+          <div class="bottom">
+            <a href="#">
+              <img src="assets/images/18.png"/>
+              {{task.coursename}}</a>
+              <img class="img1" src="assets/images/30.png"/>
+              <img class="img2" src="assets/images/31.png"/>
+          </div>
+        </li>
+      </ul>
+</div>
