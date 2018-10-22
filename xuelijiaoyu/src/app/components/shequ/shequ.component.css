@@ -1,0 +1,120 @@
+.container{
+    /* border:1px solid red; */
+    height:600px;
+}
+.left{
+    /* border:1px solid red; */
+    float:left;
+    width:850px;
+    height:600px;
+}
+.right{
+    /* border:1px solid red; */
+    width: 300px;
+    float:left;
+    margin-left:30px;
+    height:600px;
+}
+.left ul li{
+    /* border:1px solid red; */
+    height:130px;
+    margin-top:20px;
+    color:grey;
+}
+.head{
+    width: 50px;
+    height:130px;
+    text-align: center;
+    float:left;
+}
+.head img{
+    width: 50px;
+    height:50px;
+}
+.content{
+    float:left;
+    width:750px;
+    height:130px;
+   
+    margin-left:10px;
+}
+#top{
+    height:90px;
+    float:left;
+   
+    width:790px;
+}
+#bottom{
+    height: 30px;
+   
+    width:790px;
+    float:left;
+}
+#img{
+    height: 90px;
+    width: 140px;
+    overflow: hidden;
+    float:left;
+}
+#con{
+    width: 550px;
+    height: 90px;
+    
+    margin-left:20px;
+    float:left;
+}
+#con span{
+    float:left;
+    overflow: hidden;
+    height: 60px;
+    
+    text-align: center;
+}
+#h3 img{
+    float:left;
+}
+h3{
+    margin-left:10px;
+    float:left;
+}
+#h3{
+    float:left;
+    height: 20px;
+    width: 5500px;
+  
+} 
+#h3 h4{
+    color:black;
+}
+#bottom span{
+    float: left;
+    margin-top:10px;
+    margin-left:20px;
+}
+#bottom #read{
+    float: left;
+    margin-left:350px;
+}
+#topic{
+    /* height:50px; */
+    width: 300px;
+    margin-top:30px;
+    text-align: bottom;
+    margin-left:45px;
+    /* line-height: 50px; */
+}
+.right ul li{
+    width: 200px;
+    height: 20px;
+    overflow: hidden;
+    margin-left:45px;
+    margin-top:15px;
+}
+a:hover{
+    color:brown;
+}
+#hr{
+    height:10px;
+    width: 700px;
+    margin-left:50px;
+}
