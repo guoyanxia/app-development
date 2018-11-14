@@ -1,0 +1,42 @@
+page-contact {
+    ion-content{
+        img{
+            width:100%;
+        }
+        .goods{
+            img{
+                width:100%;
+                padding:0;
+                margin:0;
+            }
+            ion-col{
+                position: relative;
+                text-align: center;
+                .div1{
+                    position: absolute;
+                    width: 50%;
+                    top:20%;
+                    left:25%;
+                    height:50%;
+                    // border:1px solid red;
+                    color:#fff;
+                    background-color: rgba(0,0,0,0.3);
+                    .span1{
+                        font-size:20px;
+                        margin-top:10%;
+                    }
+                    .span2{
+                        font-size:20px;
+                    }
+                    .span3{
+                        margin-top:2%;
+                    }
+                    div{
+                        height:30px;
+                        margin-top:5%;
+                    }
+                }
+            }
+        }
+    }
+}

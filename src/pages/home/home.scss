@@ -1,0 +1,90 @@
+page-home {
+    ion-navbar{
+        // height:100px;
+        // line-height: 100px;
+        // color: yellow!important;
+        // line-height:100%;
+        ion-title{
+            // margin-top:10px;
+            height:100%;
+            line-height:100%;
+            // border:1px solid red;
+            img{
+                margin-left:18%;
+                // border:1px solid red;
+            }
+            ion-icon{
+                font-size:30px;
+                margin-right:5%;
+                margin-top:10px;
+                float:right;
+                color:black;
+            }
+        }
+        
+    }
+    ion-content{
+        .navList{
+            height:50px;
+            width:100%;
+            padding-left:0;
+            margin:0;
+
+            li{
+                text-align:center;
+                width: 25%;
+                float:left;
+                // border:1px solid red;
+                font-size:15px;
+                line-height:50px;
+                color:black;
+                list-style: none;
+                li:hover{
+                    border-bottom:yellow;
+                }
+            }
+            .first{
+                border-bottom: 4px solid yellow;
+                // margin-left:-30px;
+            }
+        }
+    }
+         .sli{
+             //height:180px;
+            // border:1px solid red;
+            height:auto;
+        }
+        div{
+            text-align:center;
+            width: 100%;
+            span{
+                font-size:20px;
+                // margin
+            }
+        }
+        .goods{
+            padding: 0;
+            img{
+                width: 100%;
+            }
+            li{
+                position: relative;
+                width: 45%;
+                float: left;
+                list-style: none;
+                margin: 5px 0 5px 3%;
+                p{
+                    position: absolute;
+                    width: 100%;
+                    bottom:4px;
+                    margin: 0;
+                    color: #fff;
+                    height: 30px;
+                    line-height: 30px;
+                    font-size:6px;
+                    text-align: center;
+                    background-color:rgba(0,0,0,0.5);
+                }
+            }
+        }
+}

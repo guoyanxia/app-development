@@ -1,0 +1,137 @@
+<ion-header text-center color="#fafafa">
+  <ion-navbar>
+    <ion-searchbar
+  [(ngModel)]="myInput" placeholder="双十二特惠好物超低价"  (click)="goSub()">
+  
+</ion-searchbar>
+    
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <img  style="display:block;"src="assets/imgs/10.png"/>
+  <ul class="navList">
+      <li (click)="isClick(0)" [class.first]="isActive==0">客厅</li>
+      <li (click)="isClick(1)" [class.first]="isActive==1">卧室</li>
+      <li (click)="isClick(2)" [class.first]="isActive==2">餐厅</li>
+      <li (click)="isClick(3)" [class.first]="isActive==3">书房</li>
+      <li (click)="isClick(4)" [class.first]="isActive==4">门厅</li>
+  </ul>
+  <div [ngSwitch]="isActive">
+    <div *ngSwitchCase="0">
+        <div class="shafa"><span>——沙发——</span></div>
+        <ul class="goods">
+            <li>
+                 <img src="assets/imgs/11.png"/>
+            </li>  
+            <li>
+                <img src="assets/imgs/14.png"/>
+            </li> 
+            <li>
+                 <img src="assets/imgs/15.png"/>
+                <p>罗德蒙简约植绒布艺沙发</p>
+                <span>RMB&nbsp;&nbsp;6500</span>
+            </li>  
+            <li>
+                <img src="assets/imgs/16.png"/>
+            </li> 
+        </ul> 
+    </div>
+    <div *ngSwitchCase="1">
+        <div class="shafa"><span>——双人床——</span></div>
+        <ul class="goods">
+            <li>
+                 <img src="assets/imgs/11.png"/>
+            </li>  
+            <li>
+                <img src="assets/imgs/14.png"/>
+            </li> 
+            <li>
+                 <img src="assets/imgs/15.png"/>
+                <p>罗德蒙简约植绒布艺沙发</p>
+                <span>RMB&nbsp;&nbsp;6500</span>
+            </li>  
+            <li>
+                <img src="assets/imgs/16.png"/>
+            </li> 
+        </ul> 
+    </div>
+    <div *ngSwitchCase="2">
+        <div class="shafa"><span>——餐桌——</span></div>
+        <ul class="goods">
+            <li>
+                 <img src="assets/imgs/11.png"/>
+            </li>  
+            <li>
+                <img src="assets/imgs/14.png"/>
+            </li> 
+            <li>
+                 <img src="assets/imgs/15.png"/>
+                <p>罗德蒙简约植绒布艺沙发</p>
+                <span>RMB&nbsp;&nbsp;6500</span>
+            </li>  
+            <li>
+                <img src="assets/imgs/16.png"/>
+            </li> 
+        </ul> 
+    </div>
+    <div *ngSwitchCase="3">
+        <div class="shafa"><span>——书柜——</span></div>
+        <ul class="goods">
+            <li>
+                 <img src="assets/imgs/11.png"/>
+            </li>  
+            <li>
+                <img src="assets/imgs/14.png"/>
+            </li> 
+            <li>
+                 <img src="assets/imgs/15.png"/>
+                <p>罗德蒙简约植绒布艺沙发</p>
+                <span>RMB&nbsp;&nbsp;6500</span>
+            </li>  
+            <li>
+                <img src="assets/imgs/16.png"/>
+            </li> 
+        </ul> 
+    </div>
+    <div *ngSwitchCase="4">
+        <div class="shafa"><span>——地毯——</span></div>
+        <ul class="goods">
+            <li>
+                 <img src="assets/imgs/11.png"/>
+            </li>  
+            <li>
+                <img src="assets/imgs/14.png"/>
+            </li> 
+            <li>
+                 <img src="assets/imgs/15.png"/>
+                <p>罗德蒙简约植绒布艺沙发</p>
+                <span>RMB&nbsp;&nbsp;6500</span>
+            </li>  
+            <li>
+                <img src="assets/imgs/16.png"/>
+            </li> 
+        </ul> 
+    </div>
+    </div>
+    <div class="div1"><span>查看全部商品>></span></div>
+
+</ion-content>
+  <!-- <div class="shafa"><span>——沙发——</span></div>
+    <ul class="goods">
+        <li>
+            <img src="assets/imgs/11.png"/>
+        </li>  
+        <li>
+            <img src="assets/imgs/14.png"/>
+        </li> 
+        <li>
+            <img src="assets/imgs/15.png"/>
+            <p>罗德蒙简约植绒布艺沙发</p>
+            <span>RMB&nbsp;&nbsp;6500</span>
+        </li>  
+        <li>
+            <img src="assets/imgs/16.png"/>
+        </li> 
+    </ul>  -->
+    
